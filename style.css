@@ -10,6 +10,13 @@ Tags: simple, clean, single column
 */
 @import url('https://fonts.googleapis.com/css?family=Arvo|Vollkorn|Cinzel|Open+Sans|Merriweather');
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@font-face {
+  font-family: 'NanumSquareR';
+  font-style: normal;
+  font-weight: 400;
+  src: url('http://thtyle.com/blog/wp-content/themes/manifest_v1.1/fonts/NanumSquareR.woff');
+  src: format('woff');
+}
 
 /* Reset All Styles
 -------------------------------------------------------------------- */
@@ -72,7 +79,7 @@ table {
 body{
   word-wrap: break-word; 
   background: #fffef4; 
-  font: 62.5%   'Open Sans', 'Nanum Gothic', sans-serif, serif;
+  font: 62.5%   'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   color: #262626;
 }
 strong{
@@ -95,7 +102,7 @@ a:active{
 /* Headers */
 
 h1{
-  font-family: 'Arvo', 'Nanum Gothic', sans-serif, serif;
+  font-family: 'Arvo', 'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   margin: 20px 0 20px;
   font-size: 3.3em;
   font-weight: bold;
@@ -142,7 +149,7 @@ h5{
   position: relative;
   top: -35px;
   /*margin-bottom: 20px;*/
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif, serif;
+  font-family: 'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   font-size: 1.2em;
   color: #999;
   font-weight: normal;
@@ -150,7 +157,7 @@ h5{
   background: #fffef4;
 }
 h5 abbr{
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif, serif;
+  font-family: 'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   display: inline-block;
   position: relative;
   margin: 0 auto;
@@ -165,7 +172,7 @@ input[type=text],
 textarea{
   border: 1px solid #ddd;
   padding: 3px;
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif, serif;
+  font-family: 'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   font-size: 100%;
   color: #666;
 }
@@ -327,7 +334,7 @@ input[type=submit]:focus{
 .postContent h4{
   position: relative;
   top: 0;
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif, serif;
+  font-family: 'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   font-size: 1.2em;
   color: #999;
   font-weight: normal;
@@ -404,7 +411,7 @@ input[type=submit]:focus{
   color: #262626;
   border: none;
   padding: 0;
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif, serif;
+  font-family: 'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   margin: 0 0 5px;
   font-style: normal;
   position: static;
@@ -502,7 +509,7 @@ input[type=submit]:focus{
 }
 .single h5{
   position: static;
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif, serif;
+  font-family: 'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   /*font-size: 1.2em;*/
   color: #999;
   font-weight: normal;
@@ -869,7 +876,7 @@ h2.archiveTitle strong{
 }
 #archives h3,
 #coreContent li h3{
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif, serif;
+  font-family: 'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   font-size: 1.6em;
   text-align: left;
   color: #262626;
@@ -882,7 +889,7 @@ h2.archiveTitle strong{
   font-size: 1.2em;
 }
 #archives label{
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif, serif;
+  font-family: 'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   font-size: 1.4em;
   color: #262626;
   font-weight: normal;
@@ -1005,7 +1012,7 @@ ul#recentPosts li{
   position: relative;
   top: 0;
   margin-bottom: 8px;
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif, serif;
+  font-family: 'Open Sans', 'NanumSquareR', 'Nanum Gothic', sans-serif, serif;
   font-size: 1.3em;
   color: #666;
   font-weight: normal;
