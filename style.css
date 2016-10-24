@@ -6,7 +6,11 @@ Version: 1.01
 Author: Jim Barraud
 Author URI: http://jimbarraud.com
 Tags: simple, clean, single column
-
+*/
+/*
+CSS customized by Theo Yang 
+URI : http://thtyle.com/blog
+e-mail : xthy@me.com  
 */
 @import url('https://fonts.googleapis.com/css?family=Arvo|Vollkorn|Cinzel|Open+Sans|Merriweather');
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
@@ -14,8 +18,7 @@ Tags: simple, clean, single column
   font-family: 'NanumSquareR';
   font-style: normal;
   font-weight: 400;
-  src: url('http://thtyle.com/blog/wp-content/themes/manifest_v1.1/fonts/NanumSquareR.woff');
-  src: format('woff');
+  src: url('http://thtyle.com/blog/wp-content/themes/manifest_v1.1/fonts/NanumSquareR.woff') format('woff');
 }
 
 /* Reset All Styles
