@@ -344,9 +344,6 @@ input[type=submit]:focus{
   font-style: italic;
   border-bottom: none;
 }
-.postDate ~ .postContent{
-  /*margin-top: -30px;*/
-}
 #coreContent p,
 #coreContent li,
 #coreContent dd{
@@ -458,8 +455,8 @@ input[type=submit]:focus{
   line-height: 1.7em;
   color: #262626;
   
-  padding-left: 10px;
-  border-left: 6px solid #6aa6ba;
+  padding-left: 1.7em;
+  border-left: 3px solid #6aa6ba;
 }
 #coreContent .entry-content blockquote p{
   font-size: 1.3em;
@@ -808,8 +805,6 @@ legend span{
   position: absolute;
   width: 60px;
   height: 60px;
-  -moz-box-shadow: 0 0 5px #999;
-  -webkit-box-shadow: 0 0 5px #999;
 }
 #galleryNav_prev{
   left: 0;
